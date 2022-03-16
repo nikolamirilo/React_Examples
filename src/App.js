@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { Test, Home, Contact, Error } from "./pages";
+import { Test, Home, Contact, Error, Flex, Position } from "./pages";
 import { Routes, Route, Link } from "react-router-dom";
 
 const App = () => {
@@ -14,6 +14,8 @@ const App = () => {
       <Routes>
         <Route path="/contact" element={<Contact />} />
         <Route path="/test" element={<Test />} />
+        <Route path="/flex" element={<Flex />} />
+        <Route path="/position" element={<Position />} />
         <Route path="/" element={<Home />} />
         <Route path="/*" element={<Error />} />
       </Routes>
