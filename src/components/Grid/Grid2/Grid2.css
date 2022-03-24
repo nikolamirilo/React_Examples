@@ -1,0 +1,44 @@
+#grid-component {
+  display: grid;
+  width: 50vw;
+  height: 50vh;
+  grid-template-areas: "head head" "nav main" "nav footer";
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: 80px 200px 40px;
+  gap: 2rem;
+  font-size: 2rem;
+}
+#grid-component > header {
+  grid-area: head;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#grid-component > nav {
+  grid-area: nav;
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#grid-component > main {
+  grid-area: main;
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#grid-component > footer {
+  grid-area: footer;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.z-index img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}

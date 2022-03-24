@@ -1,0 +1,36 @@
+.structure {
+  height: 100vh;
+  font-size: 2rem;
+}
+.inbox {
+  background-color: aqua;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.chat-feed {
+  background-color: yellow;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.profile {
+  background-color: red;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.vector-image {
+  position: absolute;
+  z-index: 1;
+}
+.vector-image img {
+  height: 90vh;
+  width: auto;
+}

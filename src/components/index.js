@@ -6,3 +6,6 @@ export { default as Input } from "./Input/Input";
 export { default as Card } from "./Card/Card";
 export { default as Example } from "./Example/Example";
 export { default as Example2 } from "./Example2/Example2";
+export { default as Structure } from "./Structure/Structure";
+export { default as Grid1 } from "./Grid/Grid1/Grid1";
+export { default as Grid2 } from "./Grid/Grid2/Grid2";
