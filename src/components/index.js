@@ -9,3 +9,5 @@ export { default as Example2 } from "./Example2/Example2";
 export { default as Structure } from "./Structure/Structure";
 export { default as Grid1 } from "./Grid/Grid1/Grid1";
 export { default as Grid2 } from "./Grid/Grid2/Grid2";
+export { default as UsefulTags } from "./UsefulTags/UsefulTags";
+export { default as KeyFrames } from "./KeyFrames/KeyFrames";

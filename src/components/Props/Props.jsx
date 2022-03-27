@@ -3,7 +3,7 @@ import React from "react";
 const Props = (props) => {
   return (
     <div className="props">
-      {props.name == "Nikola" ? (
+      {props.name === "Nikola" ? (
         <h2>Nikola</h2>
       ) : props.name === "Pera" ? (
         <h2>Pera</h2>

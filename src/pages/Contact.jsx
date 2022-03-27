@@ -2,12 +2,21 @@ import React from "react";
 import { Card } from "../components";
 import useFetch from "../hooks/useFetch";
 import moment from "moment";
+import { BallTriangle } from "react-loader-spinner";
 
 const Contact = () => {
   const { data = [], loading, error } = useFetch(process.env.REACT_APP_API);
   console.log(data);
 
-  if (loading) return <h1>Loading...</h1>;
+  if (loading)
+    return (
+      <div
+        className="loader d-flex justify-content-center align-items-center"
+        style={{ height: "100vh", backgroundColor: "black" }}
+      >
+        <BallTriangle height={150} width={150} timeout={2000} color="blue" />
+      </div>
+    );
   if (error) return <h1>Error</h1>;
 
   return (

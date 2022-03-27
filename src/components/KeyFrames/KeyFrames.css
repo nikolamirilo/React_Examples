@@ -1,0 +1,73 @@
+.key-frames {
+  height: 100vh;
+  background-color: black;
+  padding-top: 1rem;
+}
+.key-frames h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
+    "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 800;
+}
+.animation {
+  height: 87vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.rectangle {
+  width: 8rem;
+  height: 8rem;
+  background-color: red;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  position: relative;
+  animation: rectangleAnimation 2s infinite;
+}
+.circle {
+  width: 8rem;
+  height: 8rem;
+  background-color: yellow;
+  color: black;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  position: relative;
+  animation: circleAnimation 2s infinite;
+}
+
+@keyframes rectangleAnimation {
+  from {
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transform: rotate(0deg) scale(0);
+  }
+  to {
+    left: 90vw;
+    top: 60vh;
+    opacity: 1;
+    transform: rotate(1440deg) scale(1);
+  }
+}
+@keyframes circleAnimation {
+  from {
+    right: 0;
+    top: 0;
+    opacity: 0;
+    transform: rotate(-1440deg) scale(1);
+  }
+  to {
+    right: 90vw;
+    top: 60vh;
+    opacity: 1;
+    transform: rotate(0deg) scale(0);
+  }
+}

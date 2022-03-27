@@ -5,3 +5,4 @@ export { default as Error } from "./Error";
 export { default as Flex } from "./Flex";
 export { default as Position } from "./Position";
 export { default as Grid } from "./Grid";
+export { default as Practice } from "./Practice";
