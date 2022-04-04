@@ -1,5 +1,4 @@
 import React from "react";
-import "./Example2.css";
 
 const Example2 = () => {
   return (

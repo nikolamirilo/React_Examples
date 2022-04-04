@@ -1,5 +1,4 @@
 import React from "react";
-import "./Grid2.css";
 
 const Grid2 = () => {
   return (

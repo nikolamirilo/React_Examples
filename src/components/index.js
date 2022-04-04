@@ -11,3 +11,5 @@ export { default as Grid1 } from "./Grid/Grid1/Grid1";
 export { default as Grid2 } from "./Grid/Grid2/Grid2";
 export { default as UsefulTags } from "./UsefulTags/UsefulTags";
 export { default as KeyFrames } from "./KeyFrames/KeyFrames";
+export { default as Navbar } from "./Navbar/Navbar";
+export { default as Footer } from "./Footer/Footer";

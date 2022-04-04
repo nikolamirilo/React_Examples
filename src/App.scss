@@ -1,7 +1,7 @@
+@import "./assets/scss/index";
+@import "./components/index";
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  @include startSettings;
 }
 .test {
   height: 92vh;
@@ -20,10 +20,7 @@
   font-size: 1.5rem;
 }
 .timer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  @include flex(column, center, center);
   height: 25vh;
 }
 .buttons {
@@ -37,21 +34,17 @@
 }
 .display {
   background-color: rgb(151, 148, 148);
-  color: black;
+  color: $black;
   width: 8rem;
   height: 4rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include flex(column, center, center);
   border-radius: 1rem;
 }
 .display p {
   font-size: 3rem;
 }
 .theme-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flex(column, center, center);
 }
 .toggle-theme {
   font-size: 20px;
@@ -60,20 +53,15 @@ button {
   cursor: pointer;
 }
 .form {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flex(column, center, center);
   margin: 2% auto;
 }
 .form .input-field {
   font-size: 1.5rem;
 }
 .navbar {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex-start;
-  background-color: black;
+  @include flex(row, center, flex-start);
+  background-color: $black;
   height: 8vh;
 }
 .navbar a {

@@ -1,5 +1,4 @@
 import React from "react";
-import "./KeyFrames.css";
 
 const KeyFrames = () => {
   return (

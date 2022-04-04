@@ -1,5 +1,4 @@
 import React from "react";
-import "./Structure.css";
 import vector from "../../assets/images/vector1.png";
 
 const Structure = () => {
